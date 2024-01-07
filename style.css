@@ -1,0 +1,51 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #1b1b1b;
+    height: 70vw;
+}
+#plansza{
+    display: flex;
+    flex-wrap: wrap;
+    width: 300px;
+    height: 300px;
+}
+.tile{
+    border: 1px solid white;
+    height: 100px;
+    width: 100px;
+    color: transparent;
+    font-weight: 30px;
+}
+body, .tile{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#mati{
+    background: url(slice_0_0.png);
+}
+#mati2{
+    background: url(slice_0_1.png);
+}
+#mati3{
+    background: url(slice_0_2.png);
+}
+#mati4{
+    background: url(slice_1_0.png);
+}
+#mati5{
+    background: url(slice_1_1.png);
+}
+#mati6{
+    background: url(slice_1_2.png);
+}
+#mati7{
+    background: url(slice_2_0.png);
+}
+#mati8{
+    background: url(slice_2_1.png);
+}
